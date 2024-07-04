@@ -6,11 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    lightMode: 'class',
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      screens: {
+        qs: { max: "479px" },
+        sm: { min: "480px" },
+        md: { min: "768px" },
+        lg: { min: "976px" },
+        xl: { min: "1440px" },
       },
     },
   },
