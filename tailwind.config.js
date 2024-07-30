@@ -6,7 +6,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    lightMode: 'class',
+    lightMode: "class",
     extend: {
       screens: {
         qs: { max: "479px" },

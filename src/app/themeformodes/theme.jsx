@@ -2,7 +2,7 @@
 import { useTheme } from "next-themes";
 import React, { useState, useEffect } from "react";
 
-const Switcher13 = () => {
+const Switcher = () => {
   const { theme, setTheme } = useTheme();
   const [isChecked, setIsChecked] = useState(false);
 
@@ -86,4 +86,4 @@ const Switcher13 = () => {
   );
 };
 
-export default Switcher13;
+export default Switcher;

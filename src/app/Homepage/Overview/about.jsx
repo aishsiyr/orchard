@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex items-center justify-center ">
           {/* Main Content */}
           <div className="text-md">
-            <h1 className="text-3xl font-bold">Hey I'm Aishwarya</h1>
+            <h1 className="text-4xl font-bold">Hey I'm Aishwarya</h1>
             <div className="l pt-6">
               <p className="mx-auto leading-loose">
                 I'm a frontend developer, ML enthusiast and also a budding
